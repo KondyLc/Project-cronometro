@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(103, 101, 101), rgb(240, 236, 236),
+            rgb(236, 231, 231), rgb(123, 122, 122));
+}
+
+img {
+    margin-top: -40px;
+    width: 300px;
+    opacity: 0.2;
+
+}
+
+.my-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 170px;
+}
+
+.button-two {
+    margin: 0 30px;
+}
+
+#timer {
+    color: rgb(100, 98, 98);
+    font-size: 200px;
+}
+
+button {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #5e5b5b;
+    padding: 10px 30px;
+    border-radius: 12px;
+    border: 2px solid #FAFAFA;
+    background: #f6f4f4;
+    box-shadow: 3px 3px #908f8f;
+    cursor: pointer;
+    margin: 35px 0;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
+.button-one:hover {
+    background-color: rgb(109, 248, 109);
+    color: white;
+    transition: 0.5s;
+    box-shadow: 3px 3px #fdfcfc;
+
+}
+
+.button-two:hover {
+    background-color: rgb(245, 163, 74);
+    color: white;
+    transition: 0.5s;
+    box-shadow: 3px 3px #fdfcfc;
+}
+
+.button-three:hover {
+    background-color: rgb(245, 72, 72);
+    color: white;
+    transition: 0.5s;
+    box-shadow: 3px 3px #fdfcfc;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    body {
+        background-image: linear-gradient(to right, rgb(146, 143, 143), rgb(240, 236, 236),
+                rgb(236, 231, 231), rgb(146, 143, 143));
+    }
+    
+    img {
+        margin-top: 80px;
+        width: 210px;
+        opacity: 0.2;
+    
+    }
+    
+    .my-box {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 170px;
+    }
+    
+    .button-two {
+        margin: 0 30px;
+    }
+    
+    #timer {
+        color: rgb(120, 117, 117);
+        font-size: 110px;
+        margin-top: 30px;
+        margin-bottom: -32px;
+    }
+    
+    button {
+        border: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: #918e8e;
+        padding: 8px 14px;
+        border-radius: 12px;
+        border: 2px solid #FAFAFA;
+        background: #f6f4f4;
+        box-shadow: 3px 3px #d0cece;
+        cursor: pointer;
+        margin: 35px 0;
+    }
+    
+    button:active {
+        box-shadow: none;
+        transform: translate(3px, 3px);
+    }
+    
+    .button-one:hover {
+        background-color: rgb(109, 248, 109);
+        color: white;
+        transition: 0.5s;
+        box-shadow: 3px 3px #fdfcfc;
+    
+    }
+    
+    .button-two:hover {
+        background-color: rgb(245, 163, 74);
+        color: white;
+        transition: 0.5s;
+        box-shadow: 3px 3px #fdfcfc;
+    }
+    
+    .button-three:hover {
+        background-color: rgb(245, 72, 72);
+        color: white;
+        transition: 0.5s;
+        box-shadow: 3px 3px #fdfcfc;
+    }
+    
+}
+
+
+@media (max-width: 683px) {
+    body {
+        background-image: linear-gradient(to right, rgb(146, 143, 143), rgb(213, 210, 210),
+                rgb(213, 210, 210), rgb(146, 143, 143));
+    }
+    
+    img {
+        margin-top: 50px;
+        width: 115px;
+        opacity: 0.2;
+    
+    }
+    
+    .my-box {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 170px;
+    }
+    
+    .button-two {
+        margin: 0 20px;
+    }
+    
+    #timer {
+        color: rgb(120, 117, 117);
+        font-size: 70px;
+        margin-top: 30px;
+        margin-bottom: -22px;
+    }
+    
+    button {
+        border: none;
+        font-weight: 600;
+        font-size: 0.8rem;
+        color: #918e8e;
+        padding: 8px 14px;
+        border-radius: 12px;
+        border: 2px solid #FAFAFA;
+        background: #f6f4f4;
+        box-shadow: 3px 3px #d0cece;
+        cursor: pointer;
+        margin: 35px 0;
+    }
+    
+    button:active {
+        box-shadow: none;
+        transform: translate(3px, 3px);
+    }
+    
+    .button-one:hover {
+        background-color: rgb(109, 248, 109);
+        color: white;
+        transition: 0.5s;
+        box-shadow: 3px 3px #fdfcfc;
+    
+    }
+    
+    .button-two:hover {
+        background-color: rgb(245, 163, 74);
+        color: white;
+        transition: 0.5s;
+        box-shadow: 3px 3px #fdfcfc;
+    }
+    
+    .button-three:hover {
+        background-color: rgb(245, 72, 72);
+        color: white;
+        transition: 0.5s;
+        box-shadow: 3px 3px #fdfcfc;
+    }
+    
+}
